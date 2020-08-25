@@ -1,0 +1,25 @@
+<div class="container">
+    <div class="row">
+        <div class="col-md-12 mt-3 text-right">
+            <a href="/admin/add-product" class="btn btn-primary ml-auto">Add Product</a>
+        </div>
+    </div>
+    <div class="row">
+        {{#if products}}
+            {{#each products}}
+                <div class="col-md-3 ml-2">
+                    <div class="card" style="width: 18rem;">
+                        <img class="card-img-top" src="/product-images/{{this._id}}.jpg" alt="Card image cap">
+                        <div class="card-body">
+                            <h5 class="card-title">{{this.name}}</h5>
+                            <p class="card-text">{{this.description}}</p>
+                            <p class="card-text">Rs.{{this.price}}</p>
+                            <a href="/admin/delete-product/{{this._id}}" class="btn btn-primary" onclick="confirm('Delete Product ?')">Delete</a>
+                        </div>
+                    </div>
+                </div>
+            {{/each}}
+        {{/if}}
+    </div>
+
+</div>

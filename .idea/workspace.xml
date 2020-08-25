@@ -1,11 +1,44 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
+  <component name="BranchesTreeState">
+    <expand>
+      <path>
+        <item name="ROOT" type="e8cecc67:BranchNodeDescriptor" />
+        <item name="LOCAL_ROOT" type="e8cecc67:BranchNodeDescriptor" />
+      </path>
+    </expand>
+    <select />
+  </component>
   <component name="ChangeListManager">
-    <list default="true" id="0f70a231-a868-4ab5-9efd-83f71b695f73" name="Default Changelist" comment="" />
+    <list default="true" id="0f70a231-a868-4ab5-9efd-83f71b695f73" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/config/db.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/config/db_collections.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/views/admin/add-products.hbs" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/views/admin/view-products.hbs" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/views/user/products.hbs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app.js" beforeDir="false" afterPath="$PROJECT_DIR$/app.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/helpers/product_helper.js" beforeDir="false" afterPath="$PROJECT_DIR$/helpers/product_helper.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/package-lock.json" beforeDir="false" afterPath="$PROJECT_DIR$/package-lock.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/package.json" beforeDir="false" afterPath="$PROJECT_DIR$/package.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/routes/admin.js" beforeDir="false" afterPath="$PROJECT_DIR$/routes/admin.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/routes/users.js" beforeDir="false" afterPath="$PROJECT_DIR$/routes/users.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/views/layout/layout.hbs" beforeDir="false" afterPath="$PROJECT_DIR$/views/layout/layout.hbs" afterDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
     <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="JavaScript File" />
+      </list>
+    </option>
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
   </component>
   <component name="ProjectId" id="1gVhbBF7qf0ZNxr3XK8U1pXhklB" />
   <component name="ProjectViewState">
@@ -15,7 +48,17 @@
   <component name="PropertiesComponent">
     <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/views/admin" />
     <property name="nodejs_package_manager_path" value="npm" />
+  </component>
+  <component name="RecentsManager">
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/views/admin" />
+      <recent name="$PROJECT_DIR$/views/partials" />
+    </key>
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/views/layout" />
+    </key>
   </component>
   <component name="RunManager">
     <configuration name="www" type="NodeJSConfigurationType" temporary="true" nameIsGenerated="true" path-to-js-file="$PROJECT_DIR$/bin/www" working-dir="$PROJECT_DIR$/bin">
@@ -36,28 +79,48 @@
       <option name="presentableId" value="Default" />
       <updated>1598205735748</updated>
       <workItem from="1598205736869" duration="4963000" />
+      <workItem from="1598377781040" duration="12319000" />
     </task>
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
     <option name="version" value="3" />
   </component>
+  <component name="Vcs.Log.Tabs.Properties">
+    <option name="TAB_STATES">
+      <map>
+        <entry key="MAIN">
+          <value>
+            <State />
+          </value>
+        </entry>
+      </map>
+    </option>
+  </component>
   <component name="WindowStateProjectService">
-    <state width="1343" height="158" key="GridCell.Tab.0.bottom" timestamp="1598253085921">
+    <state x="370" y="177" width="615" height="403" key="#com.intellij.fileTypes.FileTypeChooser" timestamp="1598381199636">
       <screen x="0" y="27" width="1366" height="697" />
     </state>
-    <state width="1343" height="158" key="GridCell.Tab.0.bottom/0.27.1366.697@0.27.1366.697" timestamp="1598253085921" />
-    <state width="1343" height="158" key="GridCell.Tab.0.center" timestamp="1598253085919">
+    <state x="370" y="177" width="615" height="403" key="#com.intellij.fileTypes.FileTypeChooser/0.27.1366.697@0.27.1366.697" timestamp="1598381199636" />
+    <state x="466" y="133" width="424" height="491" key="FileChooserDialogImpl" timestamp="1598377979270">
       <screen x="0" y="27" width="1366" height="697" />
     </state>
-    <state width="1343" height="158" key="GridCell.Tab.0.center/0.27.1366.697@0.27.1366.697" timestamp="1598253085919" />
-    <state width="1343" height="158" key="GridCell.Tab.0.left" timestamp="1598253085918">
+    <state x="466" y="133" width="424" height="491" key="FileChooserDialogImpl/0.27.1366.697@0.27.1366.697" timestamp="1598377979270" />
+    <state width="1343" height="158" key="GridCell.Tab.0.bottom" timestamp="1598387874345">
       <screen x="0" y="27" width="1366" height="697" />
     </state>
-    <state width="1343" height="158" key="GridCell.Tab.0.left/0.27.1366.697@0.27.1366.697" timestamp="1598253085918" />
-    <state width="1343" height="158" key="GridCell.Tab.0.right" timestamp="1598253085920">
+    <state width="1343" height="158" key="GridCell.Tab.0.bottom/0.27.1366.697@0.27.1366.697" timestamp="1598387874345" />
+    <state width="1343" height="158" key="GridCell.Tab.0.center" timestamp="1598387874339">
       <screen x="0" y="27" width="1366" height="697" />
     </state>
-    <state width="1343" height="158" key="GridCell.Tab.0.right/0.27.1366.697@0.27.1366.697" timestamp="1598253085920" />
+    <state width="1343" height="158" key="GridCell.Tab.0.center/0.27.1366.697@0.27.1366.697" timestamp="1598387874339" />
+    <state width="1343" height="158" key="GridCell.Tab.0.left" timestamp="1598387874337">
+      <screen x="0" y="27" width="1366" height="697" />
+    </state>
+    <state width="1343" height="158" key="GridCell.Tab.0.left/0.27.1366.697@0.27.1366.697" timestamp="1598387874337" />
+    <state width="1343" height="158" key="GridCell.Tab.0.right" timestamp="1598387874343">
+      <screen x="0" y="27" width="1366" height="697" />
+    </state>
+    <state width="1343" height="158" key="GridCell.Tab.0.right/0.27.1366.697@0.27.1366.697" timestamp="1598387874343" />
   </component>
 </project>
