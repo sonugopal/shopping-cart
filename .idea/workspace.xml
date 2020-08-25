@@ -17,6 +17,16 @@
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="nodejs_package_manager_path" value="npm" />
   </component>
+  <component name="RunManager">
+    <configuration name="www" type="NodeJSConfigurationType" temporary="true" nameIsGenerated="true" path-to-js-file="$PROJECT_DIR$/bin/www" working-dir="$PROJECT_DIR$/bin">
+      <method v="2" />
+    </configuration>
+    <recent_temporary>
+      <list>
+        <item itemvalue="Node.js.www" />
+      </list>
+    </recent_temporary>
+  </component>
   <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
   <component name="TaskManager">
     <task active="true" id="Default" summary="Default task">
@@ -25,11 +35,29 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1598205735748</updated>
-      <workItem from="1598205736869" duration="321000" />
+      <workItem from="1598205736869" duration="4963000" />
     </task>
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
     <option name="version" value="3" />
+  </component>
+  <component name="WindowStateProjectService">
+    <state width="1343" height="158" key="GridCell.Tab.0.bottom" timestamp="1598253085921">
+      <screen x="0" y="27" width="1366" height="697" />
+    </state>
+    <state width="1343" height="158" key="GridCell.Tab.0.bottom/0.27.1366.697@0.27.1366.697" timestamp="1598253085921" />
+    <state width="1343" height="158" key="GridCell.Tab.0.center" timestamp="1598253085919">
+      <screen x="0" y="27" width="1366" height="697" />
+    </state>
+    <state width="1343" height="158" key="GridCell.Tab.0.center/0.27.1366.697@0.27.1366.697" timestamp="1598253085919" />
+    <state width="1343" height="158" key="GridCell.Tab.0.left" timestamp="1598253085918">
+      <screen x="0" y="27" width="1366" height="697" />
+    </state>
+    <state width="1343" height="158" key="GridCell.Tab.0.left/0.27.1366.697@0.27.1366.697" timestamp="1598253085918" />
+    <state width="1343" height="158" key="GridCell.Tab.0.right" timestamp="1598253085920">
+      <screen x="0" y="27" width="1366" height="697" />
+    </state>
+    <state width="1343" height="158" key="GridCell.Tab.0.right/0.27.1366.697@0.27.1366.697" timestamp="1598253085920" />
   </component>
 </project>
