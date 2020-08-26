@@ -5,7 +5,7 @@ var cookieParser = require('cookie-parser');
 var logger = require('morgan');
 var hbs=require('express-handlebars');
 var fileupload = require("express-fileupload");
-
+var session = require('express-session');
 var adminRouter = require('./routes/admin');
 var usersRouter = require('./routes/users');
 
@@ -21,6 +21,16 @@ app.use(express.urlencoded({ extended: false }));
 app.use(cookieParser());
 app.use(express.static(path.join(__dirname, 'public')));
 app.use(fileupload());
+
+app.use(session(
+    {
+      secret: 'mysupersecret',
+      store: new MongoStore({url: 'mongodb://localhost:27017/shopping', touchAfter: 24 * 3600}),
+      cookie: {maxAge: 180 * 60 * 1000},
+      saveUninitialized: true,
+      resave: true,
+    }));
+
 app.use('/admin', adminRouter);
 app.use('/', usersRouter);
 
