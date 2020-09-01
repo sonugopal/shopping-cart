@@ -1,0 +1,13 @@
+<div class="container">
+    <h5>Total Items: {{productsCount}}</h5>
+    <h5>Total Amount: {{totalPrice}}</h5>
+
+<h4>Enter Address</h4>
+<form action="/checkout" method="post">
+    <input required type="amount" hidden value="{{totalPrice}}" class="form-control">
+    <input required type="address" name="address" placeholder="Address" class="form-control">
+
+    <p class="badge badge-secondary">Cash on Delivery</p><br>
+    <button class="btn btn-success" type="submit">Proceed to buy</button>
+</form>
+</div>

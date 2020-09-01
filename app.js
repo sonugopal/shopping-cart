@@ -8,9 +8,9 @@ var fileupload = require("express-fileupload");
 var session = require('express-session');
 var adminRouter = require('./routes/admin');
 var usersRouter = require('./routes/users');
-
+var MongoStore = require('connect-mongo')(session);
 var app = express();
-
+const db=require('./config/db')
 // view engine setup
 app.set('views', path.join(__dirname, 'views'));
 app.set('view engine', 'hbs');
@@ -49,5 +49,12 @@ app.use(function(err, req, res, next) {
   res.status(err.status || 500);
   res.render('error');
 });
-
+db.connect( (err) => {
+    if (err) {
+        console.log('Unable to connect Database');
+        process.exit(1)
+    } else {
+        console.log('Database Started Successfully....');
+    }
+});
 module.exports = app;

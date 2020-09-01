@@ -1,10 +1,13 @@
 var express = require('express');
 var router = express.Router();
 let productHelper=require('../helpers/product_helper')
-const fileupload = require('fileupload').createFileUpload('./public/product-images/')
+    //const fileupload = require('fileupload').createFileUpload('./public/product-images/')
 const fs=require('fs')
 /* GET home page. */
 router.get('/', async function(req, res, next) {
+  res.redirect('/admin/all-products')
+});
+router.get('/all-products', async function(req, res, next) {
   let productList=await productHelper.getAllProducts()
   console.log(productList)
   res.render('admin/view-products', { admin:true,products:productList});

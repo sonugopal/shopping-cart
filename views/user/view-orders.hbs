@@ -1,0 +1,29 @@
+<div class="container">
+
+
+    {{#if userOrders}}
+        {{#each userOrders}}
+            <div class="row">
+                {{#each productDetails}}
+                    <div class="col-md-3 ml-2">
+                        <div class="card" style="width: 18rem;">
+                            <img class="card-img-top" src="/product-images/{{this._id}}.jpg" alt="Card image cap">
+                            <div class="card-body">
+                                <h5 class="card-title">{{this.name}}</h5>
+                                <p class="card-text">{{this.description}}</p>
+                                <p class="card-text">Rs.{{this.price}}</p>
+
+                            </div>
+                        </div>
+                    </div>
+                {{/each}}
+
+
+                <div class="col-md-12">
+                    <p>Delivery to :{{this.address}}</p>
+                </div>
+            </div>
+        {{/each}}
+    {{/if}}
+
+</div>

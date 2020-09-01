@@ -11,10 +11,21 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="0f70a231-a868-4ab5-9efd-83f71b695f73" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/views/login/login.hbs" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/views/login/signup.hbs" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/views/user/checkout.hbs" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/views/user/view-cart.hbs" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/views/user/view-orders.hbs" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app.js" beforeDir="false" afterPath="$PROJECT_DIR$/app.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/config/db.js" beforeDir="false" afterPath="$PROJECT_DIR$/config/db.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/config/db_collections.js" beforeDir="false" afterPath="$PROJECT_DIR$/config/db_collections.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/helpers/product_helper.js" beforeDir="false" afterPath="$PROJECT_DIR$/helpers/product_helper.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/helpers/user_helper.js" beforeDir="false" afterPath="$PROJECT_DIR$/helpers/user_helper.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/package-lock.json" beforeDir="false" afterPath="$PROJECT_DIR$/package-lock.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/package.json" beforeDir="false" afterPath="$PROJECT_DIR$/package.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/routes/admin.js" beforeDir="false" afterPath="$PROJECT_DIR$/routes/admin.js" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/routes/users.js" beforeDir="false" afterPath="$PROJECT_DIR$/routes/users.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/views/partials/user-header.hbs" beforeDir="false" afterPath="$PROJECT_DIR$/views/partials/user-header.hbs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/views/user/products.hbs" beforeDir="false" afterPath="$PROJECT_DIR$/views/user/products.hbs" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -39,16 +50,17 @@
   <component name="PropertiesComponent">
     <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$/views/admin" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/views/user" />
     <property name="nodejs_package_manager_path" value="npm" />
   </component>
   <component name="RecentsManager">
-    <key name="CopyFile.RECENT_KEYS">
-      <recent name="$PROJECT_DIR$/views/admin" />
-      <recent name="$PROJECT_DIR$/views/partials" />
-    </key>
     <key name="MoveFile.RECENT_KEYS">
       <recent name="$PROJECT_DIR$/views/layout" />
+    </key>
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/views/user" />
+      <recent name="$PROJECT_DIR$/views/admin" />
+      <recent name="$PROJECT_DIR$/views/partials" />
     </key>
   </component>
   <component name="RunManager">
@@ -70,7 +82,8 @@
       <option name="presentableId" value="Default" />
       <updated>1598205735748</updated>
       <workItem from="1598205736869" duration="4963000" />
-      <workItem from="1598377781040" duration="16146000" />
+      <workItem from="1598377781040" duration="22477000" />
+      <workItem from="1598962069570" duration="15657000" />
     </task>
     <servers />
   </component>
@@ -87,6 +100,7 @@
         </entry>
       </map>
     </option>
+    <option name="oldMeFiltersMigrated" value="true" />
   </component>
   <component name="WindowStateProjectService">
     <state x="370" y="177" width="615" height="403" key="#com.intellij.fileTypes.FileTypeChooser" timestamp="1598381199636">
@@ -97,21 +111,33 @@
       <screen x="0" y="27" width="1366" height="697" />
     </state>
     <state x="466" y="133" width="424" height="491" key="FileChooserDialogImpl/0.27.1366.697@0.27.1366.697" timestamp="1598377979270" />
-    <state width="1343" height="158" key="GridCell.Tab.0.bottom" timestamp="1598387874345">
+    <state width="1343" height="162" key="GridCell.Tab.0.bottom" timestamp="1598962650799">
       <screen x="0" y="27" width="1366" height="697" />
     </state>
-    <state width="1343" height="158" key="GridCell.Tab.0.bottom/0.27.1366.697@0.27.1366.697" timestamp="1598387874345" />
-    <state width="1343" height="158" key="GridCell.Tab.0.center" timestamp="1598387874339">
+    <state width="1343" height="162" key="GridCell.Tab.0.bottom/0.27.1366.697@0.27.1366.697" timestamp="1598962650799" />
+    <state width="1343" height="162" key="GridCell.Tab.0.center" timestamp="1598962650797">
       <screen x="0" y="27" width="1366" height="697" />
     </state>
-    <state width="1343" height="158" key="GridCell.Tab.0.center/0.27.1366.697@0.27.1366.697" timestamp="1598387874339" />
-    <state width="1343" height="158" key="GridCell.Tab.0.left" timestamp="1598387874337">
+    <state width="1343" height="162" key="GridCell.Tab.0.center/0.27.1366.697@0.27.1366.697" timestamp="1598962650797" />
+    <state width="1343" height="162" key="GridCell.Tab.0.left" timestamp="1598962650795">
       <screen x="0" y="27" width="1366" height="697" />
     </state>
-    <state width="1343" height="158" key="GridCell.Tab.0.left/0.27.1366.697@0.27.1366.697" timestamp="1598387874337" />
-    <state width="1343" height="158" key="GridCell.Tab.0.right" timestamp="1598387874343">
+    <state width="1343" height="162" key="GridCell.Tab.0.left/0.27.1366.697@0.27.1366.697" timestamp="1598962650795" />
+    <state width="1343" height="162" key="GridCell.Tab.0.right" timestamp="1598962650798">
       <screen x="0" y="27" width="1366" height="697" />
     </state>
-    <state width="1343" height="158" key="GridCell.Tab.0.right/0.27.1366.697@0.27.1366.697" timestamp="1598387874343" />
+    <state width="1343" height="162" key="GridCell.Tab.0.right/0.27.1366.697@0.27.1366.697" timestamp="1598962650798" />
+  </component>
+  <component name="XDebuggerManager">
+    <breakpoint-manager>
+      <breakpoints>
+        <line-breakpoint enabled="true" type="javascript">
+          <url>file://$PROJECT_DIR$/helpers/user_helper.js</url>
+          <line>31</line>
+          <properties lambdaOrdinal="-1" />
+          <option name="timeStamp" value="1" />
+        </line-breakpoint>
+      </breakpoints>
+    </breakpoint-manager>
   </component>
 </project>
