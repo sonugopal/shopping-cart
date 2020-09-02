@@ -11,21 +11,8 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="0f70a231-a868-4ab5-9efd-83f71b695f73" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/views/user/checkout.hbs" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/views/user/view-cart.hbs" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/views/user/view-orders.hbs" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app.js" beforeDir="false" afterPath="$PROJECT_DIR$/app.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/config/db.js" beforeDir="false" afterPath="$PROJECT_DIR$/config/db.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/config/db_collections.js" beforeDir="false" afterPath="$PROJECT_DIR$/config/db_collections.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/helpers/product_helper.js" beforeDir="false" afterPath="$PROJECT_DIR$/helpers/product_helper.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/helpers/user_helper.js" beforeDir="false" afterPath="$PROJECT_DIR$/helpers/user_helper.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/package-lock.json" beforeDir="false" afterPath="$PROJECT_DIR$/package-lock.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/package.json" beforeDir="false" afterPath="$PROJECT_DIR$/package.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/routes/admin.js" beforeDir="false" afterPath="$PROJECT_DIR$/routes/admin.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/routes/users.js" beforeDir="false" afterPath="$PROJECT_DIR$/routes/users.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/views/partials/user-header.hbs" beforeDir="false" afterPath="$PROJECT_DIR$/views/partials/user-header.hbs" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/views/user/products.hbs" beforeDir="false" afterPath="$PROJECT_DIR$/views/user/products.hbs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/README.md" beforeDir="false" afterPath="$PROJECT_DIR$/README.md" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -83,7 +70,7 @@
       <updated>1598205735748</updated>
       <workItem from="1598205736869" duration="4963000" />
       <workItem from="1598377781040" duration="22477000" />
-      <workItem from="1598962069570" duration="15657000" />
+      <workItem from="1598962069570" duration="18158000" />
     </task>
     <servers />
   </component>
