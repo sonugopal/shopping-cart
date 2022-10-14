@@ -87,11 +87,13 @@ module.exports = {
         })
     },
     removeCartItem:(user,product)=>{
-        return new Promise(async (resolve)=>{
+        return new Promise(async (resolve, reject)=>{
             let removeItem=await db.get().collection(COLLECTIONS.CART)
                 .updateOne({user:ObjectID(user)},{$pull:{products:ObjectID(product)}})
             if(removeItem){
                 resolve()
+            } else {
+                reject()
             }
         })
     },
